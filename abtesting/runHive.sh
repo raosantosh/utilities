@@ -1,0 +1,1 @@
+hive -hivevar startDate=2017-10-20 -hivevar endDate=2017-10-25 -f create_kwm_conversion.hql  && hive -hivevar startDate=2017-10-20 -hivevar endDate=2017-10-25 -hivevar fileName=srao_kwm_20_25oct_all_v1 -f abAnalysisData.hql
