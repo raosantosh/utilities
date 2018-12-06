@@ -1,0 +1,176 @@
+Score for Memo
+TP 6342
+FP 381
+TN 971
+FN 12346
+PRECISION 0.94332887104
+RECALL 0.339362157534
+Sensitivity 0.718195266272
+Score for Letters
+====================
+Score for TS 0.7
+TP 10029
+FP 534
+TN 818
+FN 8659
+PRECISION 0.949446180062
+RECALL 0.536654537671
+Sensitivity 0.605029585799
+LIFT Precsion 0.65%
+LIFT Recall 58.14%
+LIFT Sentivity -15.76%
+====================
+====================
+Score for TS 0.75
+TP 9590
+FP 476
+TN 876
+FN 9098
+PRECISION 0.952712100139
+RECALL 0.513163527397
+Sensitivity 0.647928994083
+LIFT Precsion 0.99%
+LIFT Recall 51.21%
+LIFT Sentivity -9.78%
+====================
+====================
+====================
+Score for TS 0.8
+TP 9261
+FP 437
+TN 915
+FN 9427
+PRECISION 0.954939162714
+RECALL 0.49555864726
+Sensitivity 0.676775147929
+LIFT Precsion 1.23%
+LIFT Recall 46.03%
+LIFT Sentivity -5.77%
+====================
+====================
+====================
+Score for TS 0.85
+TP 8788
+FP 413
+TN 939
+FN 9900
+PRECISION 0.955113574611
+RECALL 0.470248287671
+Sensitivity 0.694526627219
+LIFT Precsion 1.25%
+LIFT Recall 38.57%
+LIFT Sentivity -3.30%
+====================
+====================
+====================
+Score for TS 0.9
+TP 7988
+FP 277
+TN 1075
+FN 10700
+PRECISION 0.966485178463
+RECALL 0.427440068493
+Sensitivity 0.795118343195
+LIFT Precsion 2.45%
+LIFT Recall 25.95%
+LIFT Sentivity 10.71%
+====================
+====================
+====================
+Score for TS 0.91
+TP 7847
+FP 261
+TN 1091
+FN 10841
+PRECISION 0.967809570794
+RECALL 0.419895119863
+Sensitivity 0.806952662722
+LIFT Precsion 2.60%
+LIFT Recall 23.73%
+LIFT Sentivity 12.36%
+====================
+====================
+====================
+Score for TS 0.92
+TP 7640
+FP 252
+TN 1100
+FN 11048
+PRECISION 0.968068930563
+RECALL 0.408818493151
+Sensitivity 0.813609467456
+LIFT Precsion 2.62%
+LIFT Recall 20.47%
+LIFT Sentivity 13.29%
+====================
+====================
+====================
+Score for TS 0.93
+TP 7438
+FP 242
+TN 1110
+FN 11250
+PRECISION 0.968489583333
+RECALL 0.398009417808
+Sensitivity 0.82100591716
+LIFT Precsion 2.67%
+LIFT Recall 17.28%
+LIFT Sentivity 14.32%
+====================
+====================
+====================
+Score for TS 0.94
+TP 7228
+FP 235
+TN 1117
+FN 11460
+PRECISION 0.968511322524
+RECALL 0.386772260274
+Sensitivity 0.826183431953
+LIFT Precsion 2.67%
+LIFT Recall 13.97%
+LIFT Sentivity 15.04%
+====================
+====================
+====================
+Score for TS 0.95
+TP 6937
+FP 225
+TN 1127
+FN 11751
+PRECISION 0.968584194359
+RECALL 0.371200770548
+Sensitivity 0.833579881657
+LIFT Precsion 2.68%
+LIFT Recall 9.38%
+LIFT Sentivity 16.07%
+====================
+====================
+====================
+Score for TS 0.975
+TP 5838
+FP 189
+TN 1163
+FN 12850
+PRECISION 0.968641114983
+RECALL 0.312392979452
+Sensitivity 0.860207100592
+LIFT Precsion 2.68%
+LIFT Recall -7.95%
+LIFT Sentivity 19.77%
+====================
+====================
+====================
+Score for TS 0.99
+TP 4725
+FP 138
+TN 1214
+FN 13963
+PRECISION 0.971622455275
+RECALL 0.252836044521
+Sensitivity 0.897928994083
+LIFT Precsion 3.00%
+LIFT Recall -25.50%
+LIFT Sentivity 25.03%
+====================
+====================

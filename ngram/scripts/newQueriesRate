@@ -1,0 +1,39 @@
+hive -e "
+set hivevar:cid=101;
+select count(*)
+from
+(
+select
+querystring['searchterms'] as old_q
+from default.beacon_logs_partitioned_daily
+where action = 'page' and querystring['hlpt'] = 'S'
+and dt>='2018-01-05' and dt<='2018-01-18'
+and cid = ${hivevar:cid}
+)
+a
+JOIN
+(
+select
+querystring['searchterms'] as new_q
+from default.beacon_logs_partitioned_daily
+where action = 'page' and querystring['hlpt'] = 'S'
+and dt='2018-01-19'
+and cid = ${hivevar:cid}
+)
+b
+ON (a.old_q=b.new_q)
+"
+
+76019: pages of '2018-01-05' and dt<='2018-01-18' + of  '2018-01-19'
+21449: pages due fo same queries
+76019 - 21449 : exclusive pages of the first two weeks
+
+
+select count(*) from
+(
+select querystring['searchterms']
+from default.beacon_logs_partitioned_daily
+where action = 'page' and querystring['hlpt'] = 'S'
+and dt='2018-01-19'
+and cid = ${hivevar:cid}
+)
