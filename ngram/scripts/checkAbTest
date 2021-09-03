@@ -1,6 +1,0 @@
-select keyword, retailer_sku_id from
-cbs_datacontract.impressions
-where
-batch_date='2018-05-07'
-and media_source_id=804
-and length(keyword)>20;
