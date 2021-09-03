@@ -1,7 +1,0 @@
-lxml==3.7.3
-boto3==1.4.4
-pymssql==2.2.0.dev0 or pymssql==2.1.3
-bs4==0.0.1
-pandas==0.19.2
-numpy==1.12.0
-scipy==0.19.1
